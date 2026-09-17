@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mnemosyne": {
+      "command": "python",
+      "args": ["/ABSOLUTE/PATH/TO/agent-pack/mnemosyne_mcp.py"],
+      "env": {
+        "MNEME_URL": "http://your-host:8096/api",
+        "MNEME_TOKEN": "mnem_replace_with_your_token"
+      }
+    }
+  }
+}
